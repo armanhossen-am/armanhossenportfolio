@@ -1,0 +1,52 @@
+@page { size: A4; margin: 12mm 12mm 13mm 12mm; }
+nav { display: none !important; }
+body { font-size: 9.7pt; background:#fff; line-height:1.48; }
+.wrap { max-width:100%; padding:0; }
+header { padding: 0 0 10pt; background:#fff; }
+section { padding: 11pt 0; }
+h1 { font-size: 27pt; margin-bottom:5pt; }
+h2 { font-size: 15.5pt; }
+h3 { font-size: 11.5pt; }
+h4 { margin: 11pt 0 5pt; }
+.sec-sub { margin-bottom: 10pt; font-size:9.4pt }
+.lede { font-size: 9.8pt; margin-bottom:14pt }
+.tagline { margin-bottom:12pt }
+
+.metrics,.pillars,.grid2,.skills,.future,.tstats,.flow{display:block}
+.metric{float:left;width:31.9%;margin:0 2% 8pt 0;padding:8pt 9pt}
+.metric:nth-child(3n){margin-right:0}
+.metric .n{font-size:18pt}.metric .l{font-size:7.6pt;margin-top:4pt}
+.pillar,.mini,.fcard,.skill{float:left;width:48.5%;margin:0 2% 8pt 0;padding:10pt 11pt}
+.pillar:nth-child(2n),.mini:nth-child(2n),.fcard:nth-child(2n),.skill:nth-child(2n){margin-right:0}
+.future .fcard{width:31.9%}.future .fcard:nth-child(2n){margin-right:2%}.future .fcard:nth-child(3n){margin-right:0}
+.pillars .pillar{width:31.9%}.pillars .pillar:nth-child(2n){margin-right:2%}.pillars .pillar:nth-child(3n){margin-right:0}
+.tstat{float:left;width:18.2%;margin:0 2% 7pt 0;padding:7pt}.tstat:nth-child(5n){margin-right:0}
+.tstat .n{font-size:13pt}.tstat .l{font-size:7pt;margin-top:3pt}
+.step{float:left;width:18.2%;margin:0 2% 7pt 0;padding:8pt}.step:nth-child(5n){margin-right:0}
+.step p{font-size:7.4pt;line-height:1.4}.step .st{font-size:9.5pt}
+.chip{display:inline-block;margin:0 3pt 3pt 0;font-size:8pt;padding:4pt 9pt}
+.dash-inner{display:block}.dash-l{padding:15pt 16pt}.dash-r{display:none}
+.dash h3{font-size:13.5pt}.dash p{font-size:9.4pt}.dash ul li{font-size:9pt;margin-bottom:4pt}
+.thesis-hero{padding:16pt 18pt}.thesis-hero h3{font-size:14.5pt}.thesis-hero p{font-size:9.5pt}
+.paper{padding:13pt 15pt;margin-bottom:9pt}
+.abs,.findings li{font-size:9.4pt}.findings li{margin-bottom:4pt}
+.mini h3{font-size:10pt}.mini .abs{font-size:8.5pt}.mini .authors{font-size:8pt}
+.role{padding:8pt 10pt;font-size:8.8pt;margin-top:10pt}
+figure,table,.thesis-hero,.dash,.role{page-break-inside:avoid}
+#thesis{page-break-before:always}
+figure{padding:8pt;margin-top:10pt}figcaption{font-size:8.2pt;margin-top:6pt}
+.tagrow{display:block}.tg{display:inline-block;margin:0 3pt 3pt 0;font-size:8.2pt}
+table{font-size:8.3pt}td,th{padding:4pt 5pt}
+a{color:#0f766e;border:0}
+footer{padding:16pt 0 0}
+.metric,.dash,.pillar,.mini,.fcard,.skill,.step,.tstat,figure{overflow:visible}
+.btn-w{display:inline-block;width:auto;padding:8pt 16pt;font-size:9.5pt}
+.chip.feature{padding:5pt 11pt}
+.sec-head{display:block}
+.sec-num{display:block;margin-bottom:2pt}
+
+.thesis-hero{padding-bottom:12pt}
+
+.metrics::after,.pillars::after,.grid2::after,.skills::after,.future::after,.tstats::after,.flow::after{content:"";display:block;clear:both}.metric{min-height:56pt}
+.pillars .pillar{min-height:150pt}
+footer{padding-top:10pt}
